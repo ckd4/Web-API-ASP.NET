@@ -8,4 +8,5 @@ also raw api project with post, get, delete and update requests.
 -u can use your own cart,
 
 -add goods and products,
+
 -change the price of goods.
