@@ -76,6 +76,6 @@ FOREIGN KEY (product_id) REFERENCES products (product_id));
 
 CREATE TABLE status_of_purchase(
   purchase_id INT NOT NULL,
-  purchase_status NVARCHAR(20) NOT NULL,
+  purchase_status NVARCHAR(20) default "in process",
   
 FOREIGN KEY (purchase_id) REFERENCES purchases (purchase_id));
