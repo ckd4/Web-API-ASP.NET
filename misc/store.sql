@@ -79,3 +79,10 @@ CREATE TABLE status_of_purchase(
   purchase_status NVARCHAR(20) default "in process",
   
 FOREIGN KEY (purchase_id) REFERENCES purchases (purchase_id));
+
+CREATE TABLE filters(
+category_id INT NOT NULL,
+filter_id int identity(1,1),
+filter_name NVARCHAR(150) NOT NULL,
+
+FOREIGN KEY (category_id) REFERENCES categories (category_id));
