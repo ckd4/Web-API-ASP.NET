@@ -73,3 +73,9 @@ product_price DECIMAL(9,2) NOT NULL,
 
 FOREIGN KEY (customer_id) REFERENCES customers (customer_id),
 FOREIGN KEY (product_id) REFERENCES products (product_id));
+
+CREATE TABLE status_of_purchase(
+  purchase_id INT NOT NULL,
+  purchase_status NVARCHAR(20) NOT NULL,
+  
+FOREIGN KEY (purchase_id) REFERENCES purchases (purchase_id));
