@@ -14,6 +14,6 @@ also raw api project with post, get, delete and update requests.
 
 -change the price of goods.
 
-# Also there is scheme of logic layers of application w/ N-tier architecture
+# Also there is a scheme of logic layers of application w/ N-tier architecture
 
 ![Diagram](https://github.com/ckd4/Web-API-ASP.NET/blob/main/misc/diagram.png?raw=true)
