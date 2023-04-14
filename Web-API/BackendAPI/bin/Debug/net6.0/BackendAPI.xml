@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BackendAPI</name>
+    </assembly>
+    <members>
+        <member name="M:BackendAPI.Controllers.UserController.GetById(System.Int32)">
+            <summary>
+            Получает пользователя по его идентификатору.
+            </summary>
+            <param name="id">Идентификатор пользователя.</param>
+            <returns>Пользователь.</returns>
+        </member>
+        <member name="M:BackendAPI.Controllers.UserController.Add(BackendAPI.Contracts.Customer.CreateUserRequest)">
+            <summary>
+            Добавляет нового пользователя.
+            </summary>
+            <param name="user">Новый пользователь.</param>
+            <returns>Результат добавления.</returns>
+        </member>
+        <member name="M:BackendAPI.Controllers.UserController.Update(Domain.Models.Customer)">
+            <summary>
+            Обновляет существующего пользователя.
+            </summary>
+            <param name="user">Обновленный пользователь.</param>
+            <returns>Результат обновления.</returns>
+        </member>
+        <member name="M:BackendAPI.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            Удаляет пользователя по его идентификатору.
+            </summary>
+            <param name="id">Идентификатор пользователя.</param>
+            <returns>Результат удаления.</returns>
+        </member>
+    </members>
+</doc>

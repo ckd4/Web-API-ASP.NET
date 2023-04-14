@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ckd4\\source\\repos\\Web-API\\BackendAPI\\BackendAPI.csproj": {}
+    "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\BackendAPI\\BackendAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ckd4\\source\\repos\\Web-API\\BackendAPI\\BackendAPI.csproj": {
+    "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\BackendAPI\\BackendAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\BackendAPI\\BackendAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\BackendAPI\\BackendAPI.csproj",
         "projectName": "BackendAPI",
-        "projectPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\BackendAPI\\BackendAPI.csproj",
+        "projectPath": "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\BackendAPI\\BackendAPI.csproj",
         "packagesPath": "C:\\Users\\Ckd4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\BackendAPI\\obj\\",
+        "outputPath": "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\BackendAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ckd4\\source\\repos\\Web-API\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\BusinessLogic\\BusinessLogic.csproj"
+              "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\BusinessLogic\\BusinessLogic.csproj"
               },
-              "C:\\Users\\Ckd4\\source\\repos\\Web-API\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -51,6 +51,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.14, )"
@@ -89,14 +97,14 @@
         }
       }
     },
-    "C:\\Users\\Ckd4\\source\\repos\\Web-API\\BusinessLogic\\BusinessLogic.csproj": {
+    "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\BusinessLogic\\BusinessLogic.csproj",
+        "projectPath": "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\BusinessLogic\\BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\Ckd4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\BusinessLogic\\obj\\",
+        "outputPath": "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -117,8 +125,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ckd4\\source\\repos\\Web-API\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\Domain\\Domain.csproj"
+              "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\Domain\\Domain.csproj"
               }
             }
           }
@@ -132,6 +140,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -152,14 +166,14 @@
         }
       }
     },
-    "C:\\Users\\Ckd4\\source\\repos\\Web-API\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Ckd4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -180,8 +194,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ckd4\\source\\repos\\Web-API\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\Domain\\Domain.csproj"
+              "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\Domain\\Domain.csproj"
               }
             }
           }
@@ -196,6 +210,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.14, )"
@@ -227,14 +245,14 @@
         }
       }
     },
-    "C:\\Users\\Ckd4\\source\\repos\\Web-API\\Domain\\Domain.csproj": {
+    "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Ckd4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Ckd4\\Documents\\GitHub\\WebApi\\Web-API\\Web-API-ASP.NET\\Web-API\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -267,6 +285,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.14, )"

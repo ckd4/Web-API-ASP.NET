@@ -24,3 +24,17 @@ C:\Users\Ckd4\source\repos\Web-API\Domain\bin\Debug\net6.0\Domain.dll
 C:\Users\Ckd4\source\repos\Web-API\Domain\bin\Debug\net6.0\Domain.pdb
 C:\Users\Ckd4\source\repos\Web-API\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
 C:\Users\Ckd4\source\repos\Web-API\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\Ckd4\Documents\GitHub\WebApi\Web-API\Web-API-ASP.NET\Web-API\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\Ckd4\Documents\GitHub\WebApi\Web-API\Web-API-ASP.NET\Web-API\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+C:\Users\Ckd4\Documents\GitHub\WebApi\Web-API\Web-API-ASP.NET\Web-API\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\Ckd4\Documents\GitHub\WebApi\Web-API\Web-API-ASP.NET\Web-API\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\Ckd4\Documents\GitHub\WebApi\Web-API\Web-API-ASP.NET\Web-API\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Ckd4\Documents\GitHub\WebApi\Web-API\Web-API-ASP.NET\Web-API\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ckd4\Documents\GitHub\WebApi\Web-API\Web-API-ASP.NET\Web-API\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Ckd4\Documents\GitHub\WebApi\Web-API\Web-API-ASP.NET\Web-API\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\Ckd4\Documents\GitHub\WebApi\Web-API\Web-API-ASP.NET\Web-API\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ckd4\Documents\GitHub\WebApi\Web-API\Web-API-ASP.NET\Web-API\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\Ckd4\Documents\GitHub\WebApi\Web-API\Web-API-ASP.NET\Web-API\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\Ckd4\Documents\GitHub\WebApi\Web-API\Web-API-ASP.NET\Web-API\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\Ckd4\Documents\GitHub\WebApi\Web-API\Web-API-ASP.NET\Web-API\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+C:\Users\Ckd4\Documents\GitHub\WebApi\Web-API\Web-API-ASP.NET\Web-API\Domain\obj\Debug\net6.0\ref\Domain.dll
