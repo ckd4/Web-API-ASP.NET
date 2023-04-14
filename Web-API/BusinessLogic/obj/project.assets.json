@@ -738,17 +738,17 @@
           }
         }
       },
-      "DataAccess/1.0.0": {
+      "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.14"
         },
         "compile": {
-          "bin/placeholder/DataAccess.dll": {}
+          "bin/placeholder/Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DataAccess.dll": {}
+          "bin/placeholder/Domain.dll": {}
         }
       }
     }
@@ -1916,15 +1916,15 @@
         "version.txt"
       ]
     },
-    "DataAccess/1.0.0": {
+    "Domain/1.0.0": {
       "type": "project",
-      "path": "../DataAccess/DataAccess.csproj",
-      "msbuildProject": "../DataAccess/DataAccess.csproj"
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "DataAccess >= 1.0.0"
+      "Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1934,11 +1934,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ckd4\\source\\repos\\BusinessLogic\\BusinessLogic.csproj",
+      "projectUniqueName": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\BusinessLogic\\BusinessLogic.csproj",
       "projectName": "BusinessLogic",
-      "projectPath": "C:\\Users\\Ckd4\\source\\repos\\BusinessLogic\\BusinessLogic.csproj",
+      "projectPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\BusinessLogic\\BusinessLogic.csproj",
       "packagesPath": "C:\\Users\\Ckd4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ckd4\\source\\repos\\BusinessLogic\\obj\\",
+      "outputPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\BusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1959,8 +1959,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Ckd4\\source\\repos\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Ckd4\\source\\repos\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Ckd4\\source\\repos\\Web-API\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\Domain\\Domain.csproj"
             }
           }
         }

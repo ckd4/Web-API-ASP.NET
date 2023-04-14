@@ -1,11 +1,11 @@
-﻿using DataAccess.Interfaces;
+﻿using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Wrapper
+namespace Domain.Wrapper
 {
     public interface IRepositoryWrapper
     {

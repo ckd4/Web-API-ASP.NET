@@ -782,6 +782,19 @@
             "rid": "win"
           }
         }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.14"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
       }
     }
   },
@@ -2003,10 +2016,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.14",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.14"
     ]
@@ -2018,11 +2037,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ckd4\\source\\repos\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\Ckd4\\source\\repos\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Ckd4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ckd4\\source\\repos\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2042,7 +2061,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ckd4\\source\\repos\\Web-API\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Ckd4\\source\\repos\\Web-API\\Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

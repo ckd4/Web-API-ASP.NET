@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "BusinessLogic/1.0.0": {
         "dependencies": {
-          "DataAccess": "1.0.0"
+          "Domain": "1.0.0"
         },
         "runtime": {
           "BusinessLogic.dll": {}
@@ -456,12 +456,12 @@
           }
         }
       },
-      "DataAccess/1.0.0": {
+      "Domain/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.14"
         },
         "runtime": {
-          "DataAccess.dll": {}
+          "Domain.dll": {}
         }
       }
     }
@@ -752,7 +752,7 @@
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
-    "DataAccess/1.0.0": {
+    "Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

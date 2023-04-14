@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace DataAccess.Models
+namespace Domain.Models
 {
     public partial class ShopperContext : DbContext
     {

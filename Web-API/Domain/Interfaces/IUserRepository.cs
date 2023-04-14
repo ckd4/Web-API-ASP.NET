@@ -1,12 +1,12 @@
 ﻿using System;
+using Domain.Interfaces;
+using Domain.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DataAccess.Models;
-using DataAccess.Wrapper;
 
-namespace DataAccess.Interfaces
+namespace Domain.Interfaces
 {
     public interface IUserRepository : IRepositoryBase<Customer>
     {
